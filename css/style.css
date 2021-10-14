@@ -1,0 +1,86 @@
+/* Normalization*/
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+/* Header Styling*/
+.navbar{ 
+  /* background-color for images, colors and gradient*/
+  /* background for only color*/
+  background-color:purple; 
+  border-bottom:2px solid red;
+}
+
+.navbar-brand{
+  font-family: 'Patrick Hand', cursive;
+  font-weight:800;
+  letter-spacing:2px;
+  color:red !important;
+}
+
+.home{
+  background: purple;
+  height:60vh;
+}
+
+.nav-link{
+  color:rgb(223, 20, 20);
+}
+
+.home{
+  background-color:purple;
+}
+
+.text-head{
+  color:yellow;
+}
+
+.btn-login{
+  font-weight:700;
+  color:purple;
+  background:yellow;
+  padding-left:35px;
+  padding-right:35px;
+  border-radius:100px;
+  text-transform:uppercase;
+  transition:all 0.5s linear;
+}
+
+.btn-login:hover{
+  background:transparent;
+  border:2px dotted  yellow;
+  color:red;
+}
+
+/* outline is use to show on hover*/
+
+
+.btn-register{
+  font-weight:700;
+  color:yellow;
+  background:yellow;
+  padding-left:35px;
+  padding-right:35px;
+  border-radius:100px;
+  text-transform:uppercase;
+  transition:all 0.5s ease-in;
+  background:transparent;
+  border:2px solid  yellow;
+}
+
+.btn-register:hover{
+  background:yellow;
+  color:purple;
+}
+
+@media(max-width:576px){
+  .home{
+    height: 100vh;
+  }
+
+  .home img{
+    margin-bottom:25px;
+  }
+}
